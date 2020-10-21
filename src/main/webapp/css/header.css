@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    padding: 0 60px;
+    align-items: center;
+    background-color: #0c3479;
+    color: #ffffff;
+    z-index: 1;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: 3px 0 3px rgba(10, 10, 10, 0.1);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+}
+.logoName {
+    text-align: center;
+}
+@media only screen and (max-width: 480px) {
+    .logoName {
+        display: none;
+    }
+}
+*{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
